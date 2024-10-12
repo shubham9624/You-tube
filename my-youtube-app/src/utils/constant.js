@@ -3,6 +3,8 @@ export const YOUTUBE_API = 'https://youtube.googleapis.com/youtube/v3/videos?par
 export const HAMBYRGER_ICON_API = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOS9EEOhmjbrqupspcZiT1URXVGR7EGcs6AQ&s";
 export const YOUTUBE_LOGO_API = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4Wk4Pc-o8UNZjvoVH0UpMr_eRFGMwX8LJA&s";
 export const USER_LOGO_API = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOApFCSVByzhZorHUAP-J851JAYyOPtI1jdg&s";
+export const YOU_TUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=";
+export const USER_COMMENT_ICON_IMAGE_URL = "https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-14-512.png";
 export const dayCount = (publishedAt) => {
     // Create a Date object from the publishedAt string
     const publishedDate = new Date(publishedAt);
